@@ -99,7 +99,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       <p id="u614-2"><span id="u614">Colour Scheme</span></p>
      </div>
      <div class="clip_frame grpelem" id="u635"><!-- image -->
-      <img class="block" id="u635_img" src="images/untitled-1.jpg?crc=4265981837" alt="" data-image-width="853" data-image-height="289"/>
+      <img class="block" id="u635_img" src="images/untitled-1.jpg?crc=4007311940" data-hidpi-src="images/untitled-1_2x.jpg?crc=479599638" alt="" data-image-width="853" data-image-height="289"/>
      </div>
     </div>
     <div class="clip_frame colelem" id="u498"><!-- svg -->
@@ -117,6 +117,7 @@ f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.require
 var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","webpro","jquery.watch"],function(d){var $ = d;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+Muse.Utils.detectScreenResolution();/* HiDPI screens */
 Muse.Utils.prepHyperlinks(true);/* body */
 Muse.Utils.fullPage('#page');/* 100% height page */
 Muse.Utils.initWidget('#widgetu433', ['#bp_infinity'], function(elem) { return new WebPro.Widget.Form(elem, {validationEvent:'submit',errorStateSensitivity:'high',fieldWrapperClass:'fld-grp',formSubmittedClass:'frm-sub-st',formErrorClass:'frm-subm-err-st',formDeliveredClass:'frm-subm-ok-st',notEmptyClass:'non-empty-st',focusClass:'focus-st',invalidClass:'fld-err-st',requiredClass:'fld-err-st',ajaxSubmit:true}); });/* #widgetu433 */
