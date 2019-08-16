@@ -1,7 +1,10 @@
-<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="industrydesigngroup.com" resolutions="1x,2x" timestamp="1565946651189">
+<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="industrydesigngroup.com" resolutions="1x,2x" timestamp="1565949237647">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="index.css" crc="4050672898" ref="index"/>
+    <file name="index.css" crc="3898877128" ref="index"/>
+  </folder>
+  <folder name="assets">
+    <file name="untitled-1.png" crc="180492160" seo="true" mt="1565948589000"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -29,10 +32,10 @@
     <file name="asset 1-8.png" crc="4288751999" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="untitled-1.jpg" crc="4007311940" seo="true" ref="index">
+    <file name="untitled-1.jpg" crc="4060038215" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="untitled-1_2x.jpg" crc="479599638" seo="true" ref="index">
+    <file name="untitled-1_2x.jpg" crc="4152130909" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="pasted-svg-351.svg" crc="3986188611" seo="true" ref="index">
@@ -40,5 +43,5 @@
     </file>
     <file name="pasted svg 351_poster_.png" crc="313113214" ref="index"/>
   </folder>
-  <file name="index.html" crc="362306626" seo="true" mt="1565345054275" redirect="true"/>
+  <file name="index.html" crc="392462800" seo="true" mt="1565949213878" redirect="true"/>
 </manifest>
