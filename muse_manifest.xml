@@ -1,7 +1,7 @@
-<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="industrydesigngroup.com" resolutions="1x" timestamp="1565945814021">
+<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="industrydesigngroup.com" resolutions="1x" timestamp="1565946488031">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="index.css" crc="4011151636" ref="index"/>
+    <file name="index.css" crc="4050672898" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -29,7 +29,7 @@
     <file name="asset 1-8.png" crc="4288751999" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="material-design-color-chart.jpg" crc="329430311" seo="true" ref="index">
+    <file name="untitled-1.jpg" crc="4265981837" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="pasted-svg-351.svg" crc="3986188611" seo="true" ref="index">
@@ -37,5 +37,5 @@
     </file>
     <file name="pasted svg 351_poster_.png" crc="313113214" ref="index"/>
   </folder>
-  <file name="index.html" crc="377861103" seo="true" mt="1565943244422" redirect="true"/>
+  <file name="index.html" crc="3847578837" seo="true" mt="1565946470514" redirect="true"/>
 </manifest>
