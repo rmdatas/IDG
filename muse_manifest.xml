@@ -1,13 +1,18 @@
-<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="industrydesigngroup.com" resolutions="1x" timestamp="1565512610674">
+<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="industrydesigngroup.com" resolutions="1x" timestamp="1565943683221">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="index.css" crc="343989876" ref="index"/>
+    <file name="index.css" crc="4011151636" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
     <file name="museutils.js" crc="4232573551" ref="index"/>
     <file name="whatinput.js" crc="86476730" ref="index"/>
     <file name="museconfig.js" crc="3849126041" ref="index"/>
+    <file name="webpro.js" crc="3770351119" ref="index"/>
+    <file name="form_check.php" crc="3841221102" ref="index"/>
+    <file name="form_throttle.php" crc="4048049783" ref="index"/>
+    <file name="form_process.php" crc="3899230280" ref="index"/>
+    <file name="form-u433.php" crc="156699219" ref="index"/>
     <file name="jquery.watch.js" crc="3844535323" ref="index"/>
     <file name="require.js" crc="4234670167" ref="index"/>
   </folder>
@@ -21,6 +26,16 @@
     <file name="asset 3.png" crc="4231359927" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="asset 1-8.png" crc="4288751999" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="material-design-color-chart.jpg" crc="329430311" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pasted-svg-351.svg" crc="3986188611" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pasted svg 351_poster_.png" crc="313113214" ref="index"/>
   </folder>
-  <file name="index.html" crc="328015622" seo="true" mt="1565348325000" redirect="true"/>
+  <file name="index.html" crc="377861103" seo="true" mt="1565943244422" redirect="true"/>
 </manifest>

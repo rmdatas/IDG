@@ -11,13 +11,13 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "index.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "webpro.js", "jquery.watch.js", "require.js", "index.css"], "outOfDate":[]};
 </script>
   
   <title>Home</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=443350757"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=343989876" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4011151636" id="pagesheet"/>
    </head>
  <body>
 
@@ -37,7 +37,75 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     <div class="clearfix colelem" id="u282-4"><!-- content -->
      <p>Thank you for contacting Industry Design Group for a quote on your company design needs. To allow us to obtain a more comprehensive understanding of your design needs and the image your company is planning to present, we ask you fill out the attached form. Please fill out any sections that you think may be relevant to your business's needs.</p>
     </div>
-    <div class="verticalspacer" data-offset-top="220" data-content-above-spacer="219" data-content-below-spacer="1200"></div>
+    <div class="clearfix colelem" id="u601-5"><!-- content -->
+     <p id="u601-3"><span id="u601">Company Logo</span><span id="u601-2"></span></p>
+    </div>
+    <form class="form-grp clearfix colelem" id="widgetu433" method="post" enctype="multipart/form-data" action="scripts/form-u433.php"><!-- none box -->
+     <div class="fld-grp clearfix grpelem" id="widgetu445" data-required="true"><!-- none box -->
+      <label class="fld-label actAsDiv clearfix grpelem" id="u446-4" for="widgetu445_input"><!-- content --><span class="actAsPara">Company Name:</span></label>
+      <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u447-4"><!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu445_input" name="custom_U445" tabindex="1"/><label class="wrapped-input fld-prompt" id="widgetu445_prompt" for="widgetu445_input"><span class="actAsPara">Enter Name</span></label></span>
+     </div>
+     <div class="clearfix grpelem" id="u436-4"><!-- content -->
+      <p>Submitting Form...</p>
+     </div>
+     <div class="clearfix grpelem" id="u434-4"><!-- content -->
+      <p>The server encountered an error.</p>
+     </div>
+     <div class="clearfix grpelem" id="u449-4"><!-- content -->
+      <p>Form received.</p>
+     </div>
+     <button class="submit-btn NoWrap rounded-corners clearfix grpelem" id="u435-4" type="submit" value="Submit" tabindex="7"><!-- content -->
+      <div style="margin-top:-11px;height:11px;">
+       <p>Submit</p>
+      </div>
+     </button>
+     <div class="fld-grp clearfix grpelem" id="widgetu506" data-required="true"><!-- none box -->
+      <label class="fld-label actAsDiv clearfix grpelem" id="u508-4" for="widgetu506_input"><!-- content --><span class="actAsPara">Primary Colour</span></label>
+      <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u509-4"><!-- content --><input class="wrapped-input" type="text" id="widgetu506_input" name="custom_U506" tabindex="3"/><label class="wrapped-input fld-prompt" id="widgetu506_prompt" for="widgetu506_input"><span class="actAsPara">Enter Text</span></label></span>
+     </div>
+     <div class="fld-grp clearfix grpelem" id="widgetu523" data-required="true"><!-- none box -->
+      <label class="fld-label actAsDiv clearfix grpelem" id="u525-4" for="widgetu523_input"><!-- content --><span class="actAsPara">Secondary Colour</span></label>
+      <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u526-4"><!-- content --><input class="wrapped-input" type="text" id="widgetu523_input" name="custom_U523" tabindex="4"/><label class="wrapped-input fld-prompt" id="widgetu523_prompt" for="widgetu523_input"><span class="actAsPara">Enter Text</span></label></span>
+     </div>
+     <div class="fld-grp clearfix grpelem" id="widgetu539" data-required="true"><!-- none box -->
+      <label class="fld-label actAsDiv clearfix grpelem" id="u540-4" for="widgetu539_input"><!-- content --><span class="actAsPara">Style of Logo (Styles Below)</span></label>
+      <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u542-4"><!-- content --><input class="wrapped-input" type="text" id="widgetu539_input" name="custom_U539" tabindex="2"/><label class="wrapped-input fld-prompt" id="widgetu539_prompt" for="widgetu539_input"><span class="actAsPara">Enter Text</span></label></span>
+     </div>
+     <div class="fld-grp clearfix grpelem" id="widgetu555" data-required="true"><!-- none box -->
+      <label class="fld-label actAsDiv clearfix grpelem" id="u557-4" for="widgetu555_input"><!-- content --><span class="actAsPara">Please list the number of any logos above that are similar to what your after</span></label>
+      <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u556-4"><!-- content --><input class="wrapped-input" type="text" id="widgetu555_input" name="custom_U555" tabindex="6"/><label class="wrapped-input fld-prompt" id="widgetu555_prompt" for="widgetu555_input"><span class="actAsPara">Enter Text</span></label></span>
+     </div>
+     <div class="fld-grp clearfix grpelem" id="widgetu617" data-required="true"><!-- none box -->
+      <label class="fld-label actAsDiv clearfix grpelem" id="u620-4" for="widgetu617_input"><!-- content --><span class="actAsPara">Tertiary Colour</span></label>
+      <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u618-4"><!-- content --><input class="wrapped-input" type="text" id="widgetu617_input" name="custom_U617" tabindex="5"/><label class="wrapped-input fld-prompt" id="widgetu617_prompt" for="widgetu617_input"><span class="actAsPara">Enter Text</span></label></span>
+     </div>
+    </form>
+    <div class="clearfix colelem" id="pu582-4"><!-- group -->
+     <div class="clearfix grpelem" id="u582-4"><!-- content -->
+      <p>Company Name</p>
+     </div>
+     <div class="clearfix grpelem" id="u585-4"><!-- content -->
+      <p>Company Initials</p>
+     </div>
+     <div class="clearfix grpelem" id="u588-4"><!-- content -->
+      <p>Icon Based</p>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu572"><!-- group -->
+     <div class="clip_frame grpelem" id="u572"><!-- image -->
+      <img class="block" id="u572_img" src="images/asset%201-8.png?crc=4288751999" alt="" data-image-width="322" data-image-height="268"/>
+     </div>
+     <div class="clearfix grpelem" id="u614-4"><!-- content -->
+      <p id="u614-2"><span id="u614">Colour Scheme</span></p>
+     </div>
+     <div class="clip_frame grpelem" id="u604"><!-- image -->
+      <img class="block" id="u604_img" src="images/material-design-color-chart.jpg?crc=329430311" alt="" data-image-width="579" data-image-height="298"/>
+     </div>
+    </div>
+    <div class="clip_frame colelem" id="u498"><!-- svg -->
+     <img class="svg" id="u496" src="images/pasted-svg-351.svg?crc=3986188611" alt="" data-mu-svgfallback="images/pasted%20svg%20351_poster_.png?crc=313113214" data-image-width="161" data-image-height="138"/>
+    </div>
+    <div class="verticalspacer" data-offset-top="2329" data-content-above-spacer="2328" data-content-below-spacer="80"></div>
    </div>
   </div>
   <!-- Other scripts -->
@@ -46,11 +114,12 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 16);return 0},g=function(g){for(var f=document.getElementsByTagName("link"),h=0;h<f.length;h++)if("text/css"==f[h].type){var i=(f[h].href||"").match(/\/?css\/([\w\-]+\.css)\?crc=(\d+)/);if(!i||!i[1]||!i[2])break;b[i[1]]=i[2]}f=document.createElement("div");f.className="version";f.style.cssText="display:none; width:1px; height:1px;";document.getElementsByTagName("body")[0].appendChild(f);for(h=0;h<Muse.assets.required.length;){var i=Muse.assets.required[h],l=i.match(/([\w\-\.]+)\.(\w+)$/),k=l&&l[1]?
 l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?setTimeout(function(){g(!0)},5E3):g()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch"],function(d){var $ = d;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","webpro","jquery.watch"],function(d){var $ = d;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
 Muse.Utils.fullPage('#page');/* 100% height page */
+Muse.Utils.initWidget('#widgetu433', ['#bp_infinity'], function(elem) { return new WebPro.Widget.Form(elem, {validationEvent:'submit',errorStateSensitivity:'high',fieldWrapperClass:'fld-grp',formSubmittedClass:'frm-sub-st',formErrorClass:'frm-subm-err-st',formDeliveredClass:'frm-subm-ok-st',notEmptyClass:'non-empty-st',focusClass:'focus-st',invalidClass:'fld-err-st',requiredClass:'fld-err-st',ajaxSubmit:true}); });/* #widgetu433 */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
