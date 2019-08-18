@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="industrydesigngroup.com" resolutions="1x,2x" timestamp="1566120674034">
+<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="industrydesigngroup.com" resolutions="1x,2x" timestamp="1566120811947">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
     <file name="index.css" crc="4268255126" ref="index"/>
@@ -11,6 +11,7 @@
     <file name="museutils.js" crc="4232573551" ref="index"/>
     <file name="whatinput.js" crc="86476730" ref="index"/>
     <file name="museconfig.js" crc="3849126041" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="3880853905" ref="index"/>
     <file name="webpro.js" crc="3770351119" ref="index"/>
     <file name="form_check.php" crc="3841221102" ref="index"/>
     <file name="form_throttle.php" crc="4048049783" ref="index"/>
@@ -18,7 +19,6 @@
     <file name="form-u433.php" crc="3838820191" ref="index"/>
     <file name="jquery.watch.js" crc="3844535323" ref="index"/>
     <file name="require.js" crc="4234670167" ref="index"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="3880853905" ref="index"/>
   </folder>
   <folder name="images">
     <file name="asset 17-crop-u845.jpg" crc="3930227142" seo="true" ref="index">
