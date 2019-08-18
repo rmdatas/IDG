@@ -27,8 +27,8 @@ $form = array(
 		'unknown_method' => 'Unknown server request method'
 	),
 	'email' => array(
-		'from' => '',
-		'to' => ''
+		'from' => 'enquiries@rmdatasolutions.com.au',
+		'to' => 'enquiries@rmdatasolutions.com.au'
 	),
 	'fields' => array(
 		'custom_U445' => array(
@@ -67,15 +67,6 @@ $form = array(
 				'required' => 'Field \'Style of Logo (Styles Below)\' is required.'
 			)
 		),
-		'custom_U555' => array(
-			'order' => 6,
-			'type' => 'string',
-			'label' => 'Please list the number of any logos above that are similar to what your after',
-			'required' => true,
-			'errors' => array(
-				'required' => 'Field \'Please list the number of any logos above that are similar to what your after\' is required.'
-			)
-		),
 		'custom_U617' => array(
 			'order' => 5,
 			'type' => 'string',
@@ -83,6 +74,106 @@ $form = array(
 			'required' => true,
 			'errors' => array(
 				'required' => 'Field \'Tertiary Colour\' is required.'
+			)
+		),
+		'custom_U735' => array(
+			'order' => 6,
+			'type' => 'checkbox',
+			'label' => 'RSA',
+			'required' => false,
+			'errors' => array(
+			)
+		),
+		'custom_U872' => array(
+			'order' => 7,
+			'type' => 'checkbox',
+			'label' => 'Renderforest',
+			'required' => false,
+			'errors' => array(
+			)
+		),
+		'custom_U884' => array(
+			'order' => 8,
+			'type' => 'checkbox',
+			'label' => 'S Logo',
+			'required' => false,
+			'errors' => array(
+			)
+		),
+		'custom_U896' => array(
+			'order' => 9,
+			'type' => 'checkbox',
+			'label' => 'M & M Electrical',
+			'required' => false,
+			'errors' => array(
+			)
+		),
+		'custom_U908' => array(
+			'order' => 10,
+			'type' => 'checkbox',
+			'label' => 'R.M Data Solutions',
+			'required' => false,
+			'errors' => array(
+			)
+		),
+		'custom_U920' => array(
+			'order' => 11,
+			'type' => 'checkbox',
+			'label' => 'Innovolt ELectric',
+			'required' => false,
+			'errors' => array(
+			)
+		),
+		'custom_U993' => array(
+			'order' => 12,
+			'type' => 'checkbox',
+			'label' => 'Excellium Electrical',
+			'required' => false,
+			'errors' => array(
+			)
+		),
+		'custom_U1005' => array(
+			'order' => 13,
+			'type' => 'checkbox',
+			'label' => 'Shannon Thomas Electrical',
+			'required' => false,
+			'errors' => array(
+			)
+		),
+		'custom_U1017' => array(
+			'order' => 14,
+			'type' => 'checkbox',
+			'label' => 'Building Construction',
+			'required' => true,
+			'errors' => array(
+				'required' => 'Field \'Building Construction\' is required.'
+			)
+		),
+		'custom_U1029' => array(
+			'order' => 15,
+			'type' => 'checkbox',
+			'label' => 'Building Company',
+			'required' => true,
+			'errors' => array(
+				'required' => 'Field \'Building Company\' is required.'
+			)
+		),
+		'custom_U1041' => array(
+			'order' => 16,
+			'type' => 'checkbox',
+			'label' => 'Yellow',
+			'required' => true,
+			'errors' => array(
+				'required' => 'Field \'Yellow\' is required.'
+			)
+		),
+		'custom_U1053' => array(
+			'order' => 17,
+			'type' => 'checkbox',
+			'label' => 'Beyond Bricklaying',
+			'required' => true,
+			'errors' => array(
+				'required' => 'Field \'Beyond Bricklaying\' is required.'
 			)
 		)
 	)

@@ -1,7 +1,7 @@
-<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="industrydesigngroup.com" resolutions="1x,2x" timestamp="1565949237647">
+<manifest alg="2" build="2017.0.2.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="industrydesigngroup.com" resolutions="1x,2x" timestamp="1566120674034">
   <folder name="css">
     <file name="site_global.css" crc="443350757"/>
-    <file name="index.css" crc="3898877128" ref="index"/>
+    <file name="index.css" crc="4268255126" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="untitled-1.png" crc="180492160" seo="true" mt="1565948589000"/>
@@ -15,33 +15,72 @@
     <file name="form_check.php" crc="3841221102" ref="index"/>
     <file name="form_throttle.php" crc="4048049783" ref="index"/>
     <file name="form_process.php" crc="3899230280" ref="index"/>
-    <file name="form-u433.php" crc="156699219" ref="index"/>
+    <file name="form-u433.php" crc="3838820191" ref="index"/>
     <file name="jquery.watch.js" crc="3844535323" ref="index"/>
     <file name="require.js" crc="4234670167" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="3880853905" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="asset 14-crop-u333.jpg" crc="263002720" seo="true" ref="index">
+    <file name="asset 17-crop-u845.jpg" crc="3930227142" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="asset 17-crop-u371.jpg" crc="3860902308" seo="true" ref="index">
+    <file name="2@3x-crop-u855.png" crc="4274341098" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="asset 3.png" crc="4231359927" seo="true" ref="index">
+    <file name="2@3x-crop-u855_2x.png" crc="4145834437" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="asset 1-8.png" crc="4288751999" seo="true" ref="index">
+    <file name="checkboxunchecked.jpg" crc="495023700" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="untitled-1.jpg" crc="4060038215" seo="true" ref="index">
+    <file name="checkboxunchecked_2x.jpg" crc="4041065271" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="untitled-1_2x.jpg" crc="4152130909" seo="true" ref="index">
+    <file name="checkboxuncheckedrollover.jpg" crc="4076496830" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="pasted-svg-351.svg" crc="3986188611" seo="true" ref="index">
+    <file name="checkboxuncheckedrollover_2x.jpg" crc="421393327" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="pasted svg 351_poster_.png" crc="313113214" ref="index"/>
+    <file name="checkboxuncheckedmousedown.jpg" crc="361678653" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="checkboxuncheckedmousedown_2x.jpg" crc="119826174" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="checkboxchecked.jpg" crc="477278992" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="checkboxchecked_2x.jpg" crc="8340162" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="checkboxcheckedrollover.jpg" crc="435737969" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="checkboxcheckedrollover_2x.jpg" crc="461578639" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="checkboxcheckedmousedown.jpg" crc="4004261994" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="checkboxcheckedmousedown_2x.jpg" crc="3782867047" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="2@3x167x142.png" crc="4290370632" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="2@3x167x142_2x.png" crc="173416152" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="loop_colorchart-crop-u1120.jpg" crc="4198001453" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="loop_colorchart-crop-u1120_2x.jpg" crc="4284711534" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="example-logos-crop-u725.jpg" crc="454957379" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="392462800" seo="true" mt="1565949213878" redirect="true"/>
+  <file name="index.html" crc="368126374" seo="true" mt="1566120660908" redirect="true"/>
 </manifest>
